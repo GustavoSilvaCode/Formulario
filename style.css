@@ -1,0 +1,64 @@
+:root{
+    --cor-fundo: #06A3F9;
+    --cor-letra: rgb(249, 249, 249);
+}
+
+
+body{
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-color: var(--cor-fundo);
+    color: var(--cor-letra);
+    text-align: left;
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+p{
+    margin-bottom: 8px;
+    font-size: 19px;
+}
+
+p:hover{
+    text-decoration: underline;
+}
+
+input{
+    margin-bottom: 7px;
+    border-radius: 5px;
+    width: 300px;
+    height: 20px;
+}
+
+#infoadd{
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    text-align: center;
+    border-top: 1px solid #ffffff;
+    align-items: center;
+}
+
+#lista{
+    list-style-type: none;
+    padding: 0px;
+    padding-left: calc(100% - 580px);
+}
+
+#lista li{
+    display: inline;
+
+}
+
+#lista li a img{
+    display: inline;
+    margin: 15px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    
+}

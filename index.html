@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user_scalable=no">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body background="imagens/img1.jpg"> 
+    
+    <header id="cabecalho">
+        <h1>Formulário de Registro de Empresa</h1>
+    </header>
+
+    <article>
+        <form action="#" method="get">
+            <label>
+                <p>Proprietário da empresa</p> 
+                <input type="text" name="nome" placeholder="Primeiro nome" autofocus/><br/>
+                <input type="text" name="sobrenome" placeholder="Último nome"/>
+            </label>
+
+            <label>
+                <p>Nome da empresa</p>
+                <input type="text" name="nomeEmpresa" placeholder="Google"/>
+            </label>
+            
+            <label>
+                <p>Número de contato</p>
+                <input type="tel" name="numeroEmpresa" required placeholder="(xx) xxxxx-xxxx"/>
+            </label>
+
+            <label>
+                <p>Endereço de e-mail</p>
+                <input type="text" name="email" placeholder="usuario@gmail.com" pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" title="endereco de email"/>
+            </label>
+
+            <label>
+                <p>Endereço da empresa</p>
+                <input type="text" name="pais" placeholder="Pais"/><br/>
+                <input type="text" name="cidade" placeholder="Cidade"/><br/>
+                <input type="text" name="cep" placeholder="Cep"/><br/>
+                <input type="text" name="endereco" placeholder="Endereço"/><br/>
+            </label>
+
+            <label>
+                <p>Informções adicionais.</p>
+                <textarea name="infoAdicional" id="infoadd" placeholder="Descreva algumas informações importantes que não foram mencionadas acima."></textarea>
+            </label><br/><br/>
+            
+           <footer>
+                <audio controls autoplay>
+                    <source 
+                    src="musica/Itomori High School.mp3"
+                    type="audio/mpeg">
+                </audio>
+                
+                <address>
+                    <ul id="lista">
+                        <li><a href="https://wa.me/5521998613938" target="_blank"><img src="imagens/whatsapp.png" alt="whatsapp" class="whatsapp"></a></li>
+                        <li><a href="https://github.com/GustavoSilvaCode" target="_blank"><img src="imagens/github.png" alt="github" class="github"></a></li>
+                        <li><a href="https://www.linkedin.com/in/gustavo-silva-810760200/" target="_blank"><img src="imagens/linkedin.png" alt="linkedin" class="linkedin" ></a></li>
+                    </ul>
+                </address>
+            </footer>
+
+        </form>
+    </article>
+
+</body>
+</html>
